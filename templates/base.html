@@ -1,0 +1,105 @@
+{% load event_calendar %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ LANGUAGE_CODE }}" lang="{{ LANGUAGE_CODE }}">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="content-language" content="en"/>
+        <title>Music Ecology {% block htmltitle %}{% endblock htmltitle %}</title>
+        <meta name="description" content="Music Ecology is a gathering of musicians and artists in Boston exposing fresh electronic music and local art."/>
+        <meta name="keywords" content="music,art,electronic,boston" />
+	<style type="text/css">
+    	<!--
+	    @import url("{{ STATIC_URL }}css/main.css");
+    	-->
+	</style>
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+            try {
+                var pageTracker = _gat._getTracker("UA-12597401-1");
+                pageTracker._trackPageview();
+            } catch(err) {}
+        </script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        {% block htmlheader %}{% endblock htmlheader %}
+    </head>
+    <body>
+	<!-- header -->
+        <div id="header">
+	    <div id="topnav_wrapper">
+		<a href="/" class="maintitle"><img src="{{ STATIC_URL }}imgs/logo2.png" alt="Music Ecology" width="750px"/></a>
+	    </div>
+	</div>
+        <!-- /header -->
+	<div id="container">
+	    <div id="content_left">
+		<div class="column">
+                    <h1>Calendar</h1>
+                    <div id="calendar">
+                        {% event_calendar %}
+                    </div>
+                    <a href="{% url agenda-icalendar %}">iCalendar</a>
+                    <h1>Music</h1>
+                    <p><img style="visibility:hidden;width:0px;height:0px;" border=0 width="0" height="0" src="http://counters.gigya.com/wildfire/IMP/CXNID=2000002.0NXC/bT*xJmx*PTEyNjM2MjMxNDM1OTMmcHQ9MTI2MzYyMzE1MTg*MSZwPTI3MDgxJmQ9YmxvZ19wbGF5ZXJfZmlyc3RfZ2VuJmc9MSZvPTBmNDQ2NWI1NTJkMTQ1ZTBiODM5ZjYyYThjMTNlOTU1Jm9mPTA=.gif" alt="counter"/><embed type="application/x-shockwave-flash" src="http://cache.reverbnation.com/widgets/swf/28/blog_player.swf?emailPlaylist=artist_609586&backgroundcolor=EEEEEE&font_color=000000&shuffle=&autoPlay=false" height="300" width="180"/><br/><a target="_blank" href="http://www.reverbnation.com/rpk" onclick="javascript:window.location.href=&quot;http://www.reverbnation.com/c./a4/28/609586/Artist/0/User/link&quot;; return false;"><img alt="EPK" border="0" height="12" src="http://cache.reverbnation.com/widgets/content/28/footer.png" width="180" /></a><br/><img style="visibility:hidden;width:0px;height:0px;" border=0 width=0 height=0 src="http://www.reverbnation.com/widgets/trk/28/artist_609586//t.gif"/><a target="_blank" href="http://www.quantcast.com/p-05---xoNhTXVc"><img src="http://pixel.quantserve.com/pixel/p-05---xoNhTXVc.gif" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a></p>
+		    <h1>About Us</h1>
+		    <p><strong>Music Ecology</strong> is a weekly gathering of producers, DJs, musicians and artists focused on exposing live, original, and fresh bass-heavy electronic music and local art. The night is held every Tuesday at <strong>Wonder Bar</strong> in Allston.<br />
+                    <a href="{% url contact_form %}">Contact Us</a></p>
+		    <h1>Location</h1>
+		    <p>Wonder Bar<br />
+		    186 Harvard Avenue<br />
+		    Allston, MA 02134-2806<br />
+		    (617) 351-2665<br />
+		    <a target="_blank" href="http://maps.google.com/maps?q=186+Harvard+Avenue+Allston,+MA+02134-2806">Google Map</a></p>
+		    <h1>Links</h1>
+		    <ul class="column_list">
+		        <li><a target="_blank" href="http://www.facebook.com/MusicEcology">Music Ecology on FaceBook</a></li>
+			<li><a target="_blank" href="http://www.wonderbarboston.com/">Wonder Bar</a></li>
+			<li><a target="_blank" href="http://www.blueboyproductions.net">Blue Boy Productions</a></li>
+                        <li><a target="_blank" href="http://www.myspace.com/statesmendnb">The Statesmen</a></li>
+			<!--<li><a target="_blank" href="http://www.lostinbass.com">Lost in Bass</a></li>-->
+			<!--<li><a target="_blank" href="http://www.nerdk0r3.com/">nerdk0r3</a></li>-->
+			<!--<li><a target="_blank" href="http://www.notsmart.net">Not Smart</a></li>-->
+                        <li><a target="_blank" href="http://www.mikeymaker.com">Mikey Maker</a></li>
+                        <li><a target="_blank" href="http://www.togetherboston.com/">Together</a></li>
+		    </ul>
+		</div>
+	    </div>
+	    <div id="content_right">
+		<div class="column">
+                    {% block content %}{% endblock %}
+		</div>
+	    </div>	
+	    <br clear="all" />
+	</div>
+	<div id="footer_wrapper">
+	    <div id="footer">
+                <ul class="footer_list">
+		    <li class="title">Favorite browsing spots:</li>
+		    <li><a target="_blank" href="http://www.verminstreet.com/">Vermin Street</a></li>
+                    <li><a target="_blank" href="http://www.beantownboogiedown.com/">Beantown Boogie</a></li>
+                    <li><a target="_blank" href="http://www.zebbler.com/">Zebbler</a></li>
+                    <li><a target="_blank" href="http://www.myspace.com/bakir47">Bakir</a></li>
+                    <li><a target="_blank" href="http://www.famelessfam.com/">Fameless Fam</a></li>
+                    <li><a target="_blank" href="http://dubstepfriday.com/">DUBSTEP FRIDAY</a></li>
+                    <!--<li><a target="_blank" href="http://idubstep.co.uk/">Dubstep Worldwide</a></li>-->
+                    <li><a target="_blank" href="http://www.grooveshark.com/">Groove Shark</a></li>
+                </ul>
+                <ul class="footer_list">
+		    <li class="title">&nbsp;</li>
+		    <li><a target="_blank" href="http://skweee.com/">Skweee</a></li>
+                    <li><a target="_blank" href="http://www.elements-dnb.com/">Elements</a></li>
+                    <!--<li><a target="_blank" href="http://www.glitchloft.com/">Glitch Loft</a></li>-->
+                    <li><a target="_blank" href="http://unhearduv.com/">unHEARDuv</a></li>
+                    <li><a target="_blank" href="http://beatsandbuds.com/">Beats and Buds</a></li>
+                    <li><a target="_blank" href="http://www.instantnightlife.com/">Instant Nightlife</a></li>
+                    <li><a target="_blank" href="http://lostinsound.org/">Lost In Sound</a></li>
+                    <li><a target="_blank" href="http://soundcloud.com/">Sound Cloud</a></li>
+                </ul>
+		<p>&copy; 2010-2011 Created by Jimmy Pells</p>
+		<br clear="all" />
+	    </div>
+	</div>
+    </body>
+</html>
