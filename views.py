@@ -3,7 +3,7 @@ from django.template import loader
 from agenda.views.date_based import archive
 from agenda.models import Event
 from django.shortcuts import render_to_response
-from musicecology.templateutils.templatetags.event_calendar import event_calendar
+from agenda.templatetags.event_calendar import event_calendar
 
 def index(request, queryset, date_field,
           template_name=None, template_object_name='object', template_loader=loader,
