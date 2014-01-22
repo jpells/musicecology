@@ -12,6 +12,10 @@ from django.contrib.comments.feeds import LatestCommentFeed
 
 from agenda.models import Event
 
+from django.views.generic.simple import direct_to_template
+from contact_form.views import contact_form
+from contact_form.forms import AkismetContactForm
+
 sitemaps = { 'events' : EventSitemap }
 
 feeds = { 'events'   : EventFeed,
@@ -48,7 +52,9 @@ urlpatterns = patterns('',
     (r'^comments/', include('django.contrib.comments.urls')),
     (r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps': sitemaps}),
     (r'^feeds/(?P<url>.*)/$', 'django.contrib.syndication.views.feed', {'feed_dict': feeds}),
-    (r'^contact/', include('contact_form.urls')),
+
+    url(r'^contact/$', contact_form, {'form_class': AkismetContactForm}, name='contact_form'),
+    url(r'^contact/sent/$', direct_to_template, { 'template': 'contact_form/contact_form_sent.html' }, name='contact_form_sent'),
 
     url(r'^event_calendar_json/(?P<year>\d{4})/(?P<month>\d{2})/$', 'musicecology.views.event_calendar_json', name='event-calendar-json'),
 
