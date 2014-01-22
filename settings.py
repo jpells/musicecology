@@ -65,7 +65,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
+STATIC_URL = 'http://musicecologyboston.com/static/'
 
 # URL prefix for admin static files -- CSS, JavaScript and images.
 # Make sure to use a trailing slash.
@@ -131,7 +131,7 @@ INSTALLED_APPS = (
     'grappelli',
     'filebrowser',
     'agenda',
-    'musicecology.templateutils',
+    #'musicecology.templateutils',
 
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
@@ -169,7 +169,7 @@ LOGGING = {
 #    }
 #}
 
-CACHE_MIDDLEWARE_KEY_PREFIX = 'musicecology'
+#CACHE_MIDDLEWARE_KEY_PREFIX = 'musicecology'
 
 GRAPPELLI_ADMIN_TITLE = 'Music Ecology'
 
