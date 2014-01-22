@@ -23,6 +23,7 @@
             } catch(err) {}
         </script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.wibiya.com/Toolbars/dir_1157/Toolbar_1157210/Loader_1157210.js"></script><noscript><a href="http://www.wibiya.com/">Web Toolbar by Wibiya</a></noscript>
         {% block htmlheader %}{% endblock htmlheader %}
     </head>
     <body>
@@ -41,28 +42,53 @@
                         {% event_calendar %}
                     </div>
                     <a href="{% url agenda-icalendar %}">iCalendar</a>
-                    <h1>Music</h1>
-                    <p><img style="visibility:hidden;width:0px;height:0px;" border=0 width="0" height="0" src="http://counters.gigya.com/wildfire/IMP/CXNID=2000002.0NXC/bT*xJmx*PTEyNjM2MjMxNDM1OTMmcHQ9MTI2MzYyMzE1MTg*MSZwPTI3MDgxJmQ9YmxvZ19wbGF5ZXJfZmlyc3RfZ2VuJmc9MSZvPTBmNDQ2NWI1NTJkMTQ1ZTBiODM5ZjYyYThjMTNlOTU1Jm9mPTA=.gif" alt="counter"/><embed type="application/x-shockwave-flash" src="http://cache.reverbnation.com/widgets/swf/28/blog_player.swf?emailPlaylist=artist_609586&backgroundcolor=EEEEEE&font_color=000000&shuffle=&autoPlay=false" height="300" width="180"/><br/><a target="_blank" href="http://www.reverbnation.com/rpk" onclick="javascript:window.location.href=&quot;http://www.reverbnation.com/c./a4/28/609586/Artist/0/User/link&quot;; return false;"><img alt="EPK" border="0" height="12" src="http://cache.reverbnation.com/widgets/content/28/footer.png" width="180" /></a><br/><img style="visibility:hidden;width:0px;height:0px;" border=0 width=0 height=0 src="http://www.reverbnation.com/widgets/trk/28/artist_609586//t.gif"/><a target="_blank" href="http://www.quantcast.com/p-05---xoNhTXVc"><img src="http://pixel.quantserve.com/pixel/p-05---xoNhTXVc.gif" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a></p>
 		    <h1>About Us</h1>
-		    <p><strong>Music Ecology</strong> is a weekly gathering of producers, DJs, musicians and artists focused on exposing live, original, and fresh bass-heavy electronic music and local art. The night is held every Tuesday at <strong>Wonder Bar</strong> in Allston.<br />
+		    <p><strong>Music Ecology</strong> is a Boston based event production collective formed in the summer of 2009. Our weekly Tuesday night residency at <strong>Wonder Bar</strong>, a monthly residency at <strong>Machine</strong> as well as various events throughout the city have exposed Boston audiences to numerous local, national, and international talent.<br />
                     <a href="{% url contact_form %}">Contact Us</a></p>
-		    <h1>Location</h1>
-		    <p>Wonder Bar<br />
+		    <h1>Locations</h1>
+		    <p><b>Every Tuesday</b><br />
+                    <a target="_blank" href="http://www.wonderbarboston.com">Wonder Bar</a><br />
 		    186 Harvard Avenue<br />
 		    Allston, MA 02134-2806<br />
 		    (617) 351-2665<br />
 		    <a target="_blank" href="http://maps.google.com/maps?q=186+Harvard+Avenue+Allston,+MA+02134-2806">Google Map</a></p>
-		    <h1>Links</h1>
+                    <p><b>Every 1st Saturday</b><br />
+                    <a target="_blank" href="http://www.machine-boston.com">Machine Nightclub</a><br />
+                    1254 Boylston Street<br />
+                    Boston, MA 02215<br />
+                    (617) 536-1950<br />
+                    <a target="_blank" href="http://maps.google.com/maps?q=1254+Boylston+Street+Boston,+MA+02215">Google Map</a></p>
+                    <h1>Newsletter</h1>
+                    <!-- Begin MailChimp Signup Form -->
+                    <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup {clear:left; font:14px Helvetica,Arial,sans-serif; }
+                        #mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:75%; min-width:130px;}
+                        #mc_embed_signup form {padding:0px 0px 0px 0px;}
+                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                        <form action="http://musicecologyboston.us5.list-manage.com/subscribe/post?u=8531de5db2dc47ce83e16fa82&amp;id=bf0be729d6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                            <!--<label for="mce-EMAIL">Subscribe to our mailing list</label>-->
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </form>
+                    </div>
+                    <!--End mc_embed_signup-->
+		    <h1>Resident DJs</h1>
 		    <ul class="column_list">
-		        <li><a target="_blank" href="http://www.facebook.com/MusicEcology">Music Ecology on FaceBook</a></li>
-			<li><a target="_blank" href="http://www.wonderbarboston.com/">Wonder Bar</a></li>
-			<li><a target="_blank" href="http://www.blueboyproductions.net">Blue Boy Productions</a></li>
-                        <li><a target="_blank" href="http://www.myspace.com/statesmendnb">The Statesmen</a></li>
-			<!--<li><a target="_blank" href="http://www.lostinbass.com">Lost in Bass</a></li>-->
-			<!--<li><a target="_blank" href="http://www.nerdk0r3.com/">nerdk0r3</a></li>-->
-			<!--<li><a target="_blank" href="http://www.notsmart.net">Not Smart</a></li>-->
-                        <li><a target="_blank" href="http://www.mikeymaker.com">Mikey Maker</a></li>
-                        <li><a target="_blank" href="http://www.togetherboston.com/">Together</a></li>
+                        <li><a target="_blank" href="http://soundcloud.com/alexrusso">Alex Russo</a></li>
+                        <li><a target="_blank" href="http://soundcloud.com/fdot">FDOT</a></li>
+                        <li><a target="_blank" href="http://soundcloud.com/professorpious">Professorpious</a></li>
+                        <li><a target="_blank" href="http://soundcloud.com/the-madmauritian">Mad Mauritian</a></li>
+                    </ul>
+                    <h1>News</h1>
+                    <ul class="column_list">
+                        <li><a target="_blank" href="http://www.lostinsound.org">LostInSound</a></li>
+                        <li><a target="_blank" href="http://www.unhearduv.com">UnheardUV</a></li>
+                        <li><a target="_blank" href="http://www.beantownboogiedown.com">Beantown Boogiedown</a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/pages/Forbidden-Bass-Crew/199790486728891">Forbidden Bass</a></li>
 		    </ul>
 		</div>
 	    </div>
@@ -77,27 +103,19 @@
 	    <div id="footer">
                 <ul class="footer_list">
 		    <li class="title">Favorite browsing spots:</li>
+                    <li><a target="_blank" href="http://www.blueboyproductions.net/">Blue Boy Productions</a></li>
 		    <li><a target="_blank" href="http://www.verminstreet.com/">Vermin Street</a></li>
-                    <li><a target="_blank" href="http://www.beantownboogiedown.com/">Beantown Boogie</a></li>
-                    <li><a target="_blank" href="http://www.zebbler.com/">Zebbler</a></li>
-                    <li><a target="_blank" href="http://www.myspace.com/bakir47">Bakir</a></li>
                     <li><a target="_blank" href="http://www.famelessfam.com/">Fameless Fam</a></li>
-                    <li><a target="_blank" href="http://dubstepfriday.com/">DUBSTEP FRIDAY</a></li>
-                    <!--<li><a target="_blank" href="http://idubstep.co.uk/">Dubstep Worldwide</a></li>-->
-                    <li><a target="_blank" href="http://www.grooveshark.com/">Groove Shark</a></li>
+                    <li><a target="_blank" href="http://www.sonicbeating.org/">Sonic Beating</a></li>
                 </ul>
                 <ul class="footer_list">
 		    <li class="title">&nbsp;</li>
-		    <li><a target="_blank" href="http://skweee.com/">Skweee</a></li>
-                    <li><a target="_blank" href="http://www.elements-dnb.com/">Elements</a></li>
-                    <!--<li><a target="_blank" href="http://www.glitchloft.com/">Glitch Loft</a></li>-->
-                    <li><a target="_blank" href="http://unhearduv.com/">unHEARDuv</a></li>
-                    <li><a target="_blank" href="http://beatsandbuds.com/">Beats and Buds</a></li>
+                    <li><a target="_blank" href="http://www.myspace.com/statesmendnb/">Statesmen</a></li>
+                    <li><a target="_blank" href="http://subduction.posterous.com/">SUBduction</a></li>
                     <li><a target="_blank" href="http://www.instantnightlife.com/">Instant Nightlife</a></li>
-                    <li><a target="_blank" href="http://lostinsound.org/">Lost In Sound</a></li>
-                    <li><a target="_blank" href="http://soundcloud.com/">Sound Cloud</a></li>
+                    <li><a target="_blank" href="http://www.mmmmavent.com/">mmmmaven</a></li>
                 </ul>
-		<p>&copy; 2010-2011 Created by Jimmy Pells</p>
+		<p>&copy; 2010-2012 Created by Music Ecology & James Pells</p>
 		<br clear="all" />
 	    </div>
 	</div>
