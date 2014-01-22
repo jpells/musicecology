@@ -162,12 +162,12 @@ LOGGING = {
     }
 }
 
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': 'unix:/home/jpells/memcached.sock',
-    }
-}
+#CACHES = {
+#    'default': {
+#        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+#        'LOCATION': 'unix:/home/jpells/memcached.sock',
+#    }
+#}
 
 CACHE_MIDDLEWARE_KEY_PREFIX = 'musicecology'
 
