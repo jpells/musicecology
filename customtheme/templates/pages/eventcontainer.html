@@ -1,0 +1,19 @@
+{% extends "pages/page.html" %}
+
+{% load mezzanine_tags event %}
+
+{% block main %}{{ block.super }}
+
+<div style="float:right;">
+    <a href='{{page.eventcontainer|icalendar_url:"webcal"}}' target="_blank" class="btn btn-small btn-primary">
+        Subscribe to all events in Google Calendar/Outlook/iCal
+    </a>
+</div>
+
+{% for event in page.eventcontainer.events %}
+    <h3><a href="{{event.get_absolute_url}}">{{event.title}}</a> <small> from {{event.event.start_datetime}} to {{event.event.end_datetime}}</small></h3>
+    {{event.event.content|richtext_filter|truncatewords_html:40|safe}}
+    <a href="{{event.get_absolute_url}}" class="btn btn-primary">More info &rarr;</a>
+{% endfor %}
+
+{% endblock %}
