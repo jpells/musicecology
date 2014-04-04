@@ -321,6 +321,7 @@ INSTALLED_APPS = (
     #"mezzanine.mobile",
 
     "mezzanine_events",
+    "mezzanine_mailchimp",
 )
 
 # List of processors used by RequestContext to populate the context.
