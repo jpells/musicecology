@@ -110,15 +110,15 @@
     {% comment %}REMOVE SHOPPING CART FOR TIME BEING{% nevercache %}
     {% include "includes/user_panel.html" %}
     {% endnevercache %}{% endcomment %}
-    <div class="panel panel-default">
-    <div class="panel-body">
+    {% comment %}<div class="panel panel-default">
+    <div class="panel-body">{% endcomment %}
     {% block right_panel %}
     {% ifinstalled mezzanine.twitter %}
     {% include "twitter/tweets.html" %}
     {% endifinstalled %}
     {% endblock %}
-    </div>
-    </div>
+    {% comment %}</div>
+    </div>{% endcomment %}
     <div class="panel panel-default">
     <div class="panel-body">
         <!-- Begin MailChimp Signup Form -->
