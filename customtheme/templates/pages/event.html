@@ -18,6 +18,7 @@
 </p>
 
 <div class="row-fluid">
+	{% if page.event.event_location %}
 	<div class="span4">
 		<b>Address</b>
 		<address>
@@ -27,6 +28,7 @@
 			</a>
 		</address>
 	</div>
+	{% endif %}
 	{% if page.event.speakers_list %}
 	<div class="span4">
 		<b>Speakers</b>
@@ -51,6 +53,8 @@
 
 {{page.event.content|richtext_filter|safe}}
 
+{% if page.event.event_location %}
 {% google_static_map page.event 670 150 10 %}
+{% endif %}
 
 {% endblock %}
