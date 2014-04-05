@@ -30,7 +30,7 @@ class Command(BaseCommand):
     help = 'Import Events from Django-Agenda'
 
     image_host = "http://musicecologyboston.com"
-    event_image_save_path = os.path.join(settings.STATIC_ROOT, "events")
+    event_image_save_path = os.path.join(settings.STATIC_ROOT, "media/uploads/events")
     location_headings = []
     locations = {}
     event_headings = []
