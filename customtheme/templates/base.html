@@ -107,9 +107,9 @@
 </div>
 
 <div class="col-md-3 right">
-    {% nevercache %}
+    {% comment %}REMOVE SHOPPING CART FOR TIME BEING{% nevercache %}
     {% include "includes/user_panel.html" %}
-    {% endnevercache %}
+    {% endnevercache %}{% endcomment %}
     <div class="panel panel-default">
     <div class="panel-body">
     {% block right_panel %}
