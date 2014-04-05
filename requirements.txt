@@ -1,3 +1,4 @@
 Cartridge==0.9.2
 -e git+git://github.com/jpells/mezzanine-events.git#egg=mezzanine-events
 -e git+https://bitbucket.org/naritas/mezzanine-mailchimp.git#egg=mezzanine-mailchimp
+BeautifulSoup==3.2.1

@@ -324,6 +324,8 @@ INSTALLED_APPS = (
 
     "mezzanine_events",
     "mezzanine_mailchimp",
+
+    "migrate_django_agenda",
 )
 
 # List of processors used by RequestContext to populate the context.
@@ -411,6 +413,25 @@ DEBUG_TOOLBAR_CONFIG = {"INTERCEPT_REDIRECTS": False}
 # }
 
 SEARCH_MODEL_CHOICES = []
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(PROJECT_ROOT, "%s.log" % PROJECT_DIRNAME),
+        },
+    },
+    'loggers': {
+        '': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
 
 ##################
 # LOCAL SETTINGS #
