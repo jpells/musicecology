@@ -10,7 +10,7 @@
     </a>
 </div>
 
-{% for event in page.eventcontainer.events %}
+{% for event in page.eventcontainer.events|slice:":10" %}
     <h3><a href="{{event.get_absolute_url}}">{{event.title}}</a> <small> {% if event.event.end_datetime %}from {% endif %}{{event.event.start_datetime}}{% if event.event.end_datetime %} to {{event.event.end_datetime}}{% endif %}</small></h3>
     {{event.event.content|richtext_filter|truncatewords_html:40|safe}}
     <a href="{{event.get_absolute_url}}" class="btn btn-primary">More info &rarr;</a>
