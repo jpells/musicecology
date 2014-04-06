@@ -320,7 +320,7 @@ INSTALLED_APPS = (
     "mezzanine.galleries",
     "mezzanine.twitter",
     "mezzanine.accounts",
-    #"mezzanine.mobile",
+    "mezzanine.mobile",
 
     "mezzanine_events",
     "mezzanine_mailchimp",
