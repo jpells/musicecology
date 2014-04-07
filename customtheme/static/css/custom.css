@@ -1,3 +1,7 @@
+.tree {
+    padding-bottom: 0px;
+}
+
 .tree .active > a {
     background-color: #272b2e;
 }
