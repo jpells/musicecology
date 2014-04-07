@@ -107,7 +107,7 @@
 
 {% block blog_post_list_post_content %}
 {% editable blog_post.content %}
-{{ blog_post.content|safe }}
+{{ blog_post.content|truncatewords_html:40|safe }}
 {% endeditable %}
 {% endblock %}
 
