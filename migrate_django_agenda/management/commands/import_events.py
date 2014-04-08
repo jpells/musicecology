@@ -7,7 +7,7 @@ from django.core.exceptions import ValidationError
 import datetime
 from BeautifulSoup import BeautifulSoup
 import urllib
-from django.conf import settings
+from mezzanine.conf import settings
 import urlparse
 import logging
 
