@@ -1,3 +1,18 @@
+.navbar-brand {
+    padding: 0px;
+    /*padding-left: 15px;*/
+    width: 148px;
+    height: 49px;
+    margin-left: 0px !important;
+    background-image: url("/static/img/logo.png");
+    background-size: 148px 49px;
+    background-repeat:no-repeat;
+}
+
+.navbar-brand:hover {
+    background-image: url("/static/img/logo_hover.png");
+}
+
 .tree {
     padding-bottom: 0px;
 }
