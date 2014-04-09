@@ -2,14 +2,14 @@
 
 <div class="panel panel-default">
 <div class="panel-body">
-{% block recent_events %}
-{% recent_events 5 as recent_events %}
-{% if recent_events %}
-<h3>{% trans "Recent Events" %}</h3>
-<ul class="list-unstyled recent-events">
-{% for recent_event in recent_events %}
-<li><a href="{{ recent_event.get_absolute_url }}"
-    >{{ recent_event.title }}</a></li>
+{% block upcoming_events %}
+{% upcoming_events 5 as upcoming_events %}
+{% if upcoming_events %}
+<h3>{% trans "Upcoming Events" %}</h3>
+<ul class="list-unstyled upcoming-events">
+{% for upcoming_event in upcoming_events %}
+<li><a href="{{ upcoming_event.get_absolute_url }}"
+    >{{ upcoming_event.title }}</a></li>
 {% endfor %}
 </ul>
 {% endif %}
