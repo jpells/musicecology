@@ -11,6 +11,10 @@
     border-color: rgba(0, 0, 0, 0.6);
 }
 
+hr {
+    border-bottom: 1px dashed #CCCCCC;
+}
+
 .connect p {
     font-weight: bold;
 }

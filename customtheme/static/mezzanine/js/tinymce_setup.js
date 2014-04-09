@@ -40,6 +40,8 @@ if (typeof tinyMCE != 'undefined') {
         forced_root_block: "p",
         remove_trailing_nbsp: true,
 
+	content_css : "/static/css/mezzanine.css,/static/css/cartridge.css,/static/css/bootstrap_bootswatch_slate.css,/static/css/custom.css",
+
         external_link_list_url: '/displayable_links.js',
         relative_urls: false,
         convert_urls: false,
@@ -51,9 +53,10 @@ if (typeof tinyMCE != 'undefined') {
         theme_advanced_toolbar_location: "top",
         theme_advanced_toolbar_align: "left",
         theme_advanced_statusbar_location: "",
-        theme_advanced_buttons1: "bold,italic,|,link,unlink,|,image,|,media,charmap,|,code,|,table,|,bullist,numlist,blockquote,|,undo,redo,|,formatselect,fontselect,fontsizeselect,|,search,replace,|,fullscreen,|,pasteword",
-        theme_advanced_buttons2: "",
-        theme_advanced_buttons3: "",
+        theme_advanced_buttons1 : "save,newdocument,|,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect",
+        theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|,insertdate,inserttime,preview,|,forecolor,backcolor",
+        theme_advanced_buttons3 : "tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,charmap,emotions,iespell,media,advhr,|,print,|,ltr,rtl,|,fullscreen",
+        theme_advanced_buttons4 : "insertlayer,moveforward,movebackward,absolute,|,styleprops,spellchecker,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,blockquote,pagebreak,|,insertfile,insertimage",
         theme_advanced_path: false,
         theme_advanced_blockformats: "p,h1,h2,h3,h4,pre",
         theme_advanced_styles: "[all] clearfix=clearfix;[p] small=small;[img] Image left-aligned=img_left;[img] Image left-aligned (nospace)=img_left_nospacetop;[img] Image right-aligned=img_right;[img] Image right-aligned (nospace)=img_right_nospacetop;[img] Image Block=img_block;[img] Image Block (nospace)=img_block_nospacetop;[div] column span-2=column span-2;[div] column span-4=column span-4;[div] column span-8=column span-8",
@@ -64,7 +67,7 @@ if (typeof tinyMCE != 'undefined') {
         advlink_styles: "intern=internal;extern=external",
 
         // plugins
-        plugins: "inlinepopups,contextmenu,tabfocus,searchreplace,fullscreen,advimage,advlink,paste,media,table",
+	plugins : "autolink,lists,spellchecker,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
         advimage_update_dimensions_onchange: true,
 
         // remove MS Word's inline styles when copying and pasting.
