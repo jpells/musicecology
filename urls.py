@@ -4,6 +4,7 @@ from django.conf.urls import patterns, include, url
 from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
 
+from mezzanine.conf import settings
 from mezzanine.core.views import direct_to_template
 
 
@@ -73,6 +74,8 @@ urlpatterns += patterns('',
     # FOR PAGES, SO URLPATTERNS ADDED BELOW ``mezzanine.urls``
     # WILL NEVER BE MATCHED!
 
+    ("^%s/" % settings.EVENT_SLUG, include("mezzanine_agenda.urls")),
+
     # If you'd like more granular control over the patterns in
     # ``mezzanine.urls``, go right ahead and take the parts you want
     # from it, and use them directly below instead of using
@@ -95,7 +98,6 @@ urlpatterns += patterns('',
 
     # ("^%s/" % settings.SITE_PREFIX, include("mezzanine.urls"))
 
-    ("^", include("mezzanine_events.urls")),
 )
 
 # Adds ``STATIC_URL`` to the context of error pages, so that error

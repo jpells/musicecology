@@ -322,10 +322,10 @@ INSTALLED_APPS = (
     "mezzanine.accounts",
     #"mezzanine.mobile",
 
-    "mezzanine_events",
     "mezzanine_mailchimp",
 
-    "migrate_django_agenda",
+    "migrate_mezzanine_events",
+    "mezzanine_agenda",
 )
 
 # List of processors used by RequestContext to populate the context.
@@ -432,6 +432,16 @@ LOGGING = {
         },
     },
 }
+
+ADMIN_MENU_ORDER = (
+    (_("Content"), ("pages.Page", "blog.BlogPost", "mezzanine_agenda.Event",
+        "generic.ThreadedComment", (_("Media Library"), "fb_browse"),)),
+    (_("Shop"), ("shop.Product", "shop.ProductOption", "shop.DiscountCode",
+        "shop.Sale", "shop.Order")),
+    (_("Site"), ("sites.Site", "redirects.Redirect", "conf.Setting")),
+    (_("Users"), ("auth.User", "auth.Group",)),
+)
+
 
 ##################
 # LOCAL SETTINGS #
