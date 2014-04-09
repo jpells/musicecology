@@ -107,7 +107,7 @@
 
 {% block event_list_event_content %}
 {% editable event.content %}
-{{ event.description_from_content|safe }}
+{{ event.content|truncatewords_html:40|safe }}
 {% endeditable %}
 {% endblock %}
 
