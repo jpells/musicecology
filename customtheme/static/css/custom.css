@@ -21,6 +21,12 @@
     background-color: #272b2e;
 }
 
+.event-list-detail {
+    border-bottom: 1px dashed #CCCCCC;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
 .form-actions {
     background-color: #2e3338;
     border-color: rgba(0, 0, 0, 0.6);
