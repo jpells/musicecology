@@ -37,6 +37,7 @@
 <script src="{% static "mezzanine/js/"|add:settings.JQUERY_FILENAME %}"></script>
 <script src="{% static "js/bootstrap.js" %}"></script>
 <script src="{% static "js/bootstrap-extras.js" %}"></script>
+<script src="{% static "js/custom.js" %}"></script>
 {% block extra_js %}{% endblock %}
 {% endcompress %}
 <!--[if lt IE 9]>
@@ -121,26 +122,14 @@
     {% comment %}</div>
     </div>{% endcomment %}
     <div class="panel panel-default">
-    <div class="panel-body">
-        <!-- Begin MailChimp Signup Form -->
-        <!--<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">-->
-        <style type="text/css">
-            /*#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }*/
-            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
-        <div id="mc_embed_signup">
-        <form action="http://musicecologyboston.us5.list-manage1.com/subscribe/post?u=8531de5db2dc47ce83e16fa82&amp;id=bf0be729d6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div class="form-group">
-            <label for="mce-EMAIL">Subscribe to our mailing list</label>
-            <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email" required>
-            </div>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;"><input type="text" name="b_8531de5db2dc47ce83e16fa82_bf0be729d6" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary"></div>
-        </form>
+    <div class="panel-body subscribe">
+        <p>Subscribe to our Newsletter</p>
+        <div id="subscribe-result">
         </div>
-        <!--End mc_embed_signup-->
+        <form action="{% url "mailchimp-subscribe" %}" method="POST" id="subscribe-form">{% csrf_token %}
+            <div class="form-group"><input type="email" name="email" placeholder="Email" class="form-control"></div>
+            <div class="form-group"><input type="submit" value="Subscribe" class="btn btn-primary"></div>
+        </form>
     </div>
     </div>
     <div class="panel panel-default">

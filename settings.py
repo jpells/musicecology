@@ -323,8 +323,6 @@ INSTALLED_APPS = (
     #"mezzanine.mobile",
 
     "mezzanine_mailchimp",
-
-    "migrate_mezzanine_events",
     "mezzanine_agenda",
 )
 

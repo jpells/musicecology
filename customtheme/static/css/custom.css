@@ -36,7 +36,7 @@ hr {
     border-bottom: 1px dashed #CCCCCC;
 }
 
-.connect p {
+.connect p, .subscribe p {
     font-weight: bold;
 }
 

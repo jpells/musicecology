@@ -75,6 +75,7 @@ urlpatterns += patterns('',
     # WILL NEVER BE MATCHED!
 
     ("^%s/" % settings.EVENT_SLUG, include("mezzanine_agenda.urls")),
+    ("^newsletter/", include("mezzanine_mailchimp.urls")),
 
     # If you'd like more granular control over the patterns in
     # ``mezzanine.urls``, go right ahead and take the parts you want
