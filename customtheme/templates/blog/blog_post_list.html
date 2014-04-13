@@ -112,7 +112,7 @@
 {% endblock %}
 
 {% block blog_post_list_post_links %}
-<div class="blog-list-detail">
+<div class="blog-list-detail {% if forloop.last %}list-end{% endif %}">
     {% keywords_for blog_post as tags %}
     {% if tags %}
     <ul class="list-inline tags">

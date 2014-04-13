@@ -27,6 +27,10 @@
     padding-bottom: 15px;
 }
 
+.list-end {
+    border-bottom: none;
+}
+
 .form-actions {
     background-color: #2e3338;
     border-color: rgba(0, 0, 0, 0.6);

@@ -112,7 +112,7 @@
 {% endblock %}
 
 {% block event_list_event_links %}
-<div class="event-list-detail">
+<div class="event-list-detail {% if forloop.last %}list-end{% endif %}">
     {% keywords_for event as tags %}
     {% if tags %}
     <ul class="list-inline tags">
