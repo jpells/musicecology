@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="{{ LANGUAGE_CODE }}"{% if LANGUAGE_BIDI %} dir="rtl"{% endif %}>
+{% load pages_tags mezzanine_tags keyword_tags i18n future staticfiles customtheme %}
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="{% block meta_keywords %}{% metablock %}
+{% keywords_for page as keywords %}
+{% for keyword in keywords %}
+    {% if not forloop.first %}, {% endif %}
+    {{ keyword }}
+{% endfor %}
+{% endmetablock %}{% endblock %}">
+<meta name="description" content="{% block meta_description %}{% metablock %}{{ page.description }}{% endmetablock %}{% endblock %}">
+<title>{% block meta_title %}{{ page.meta_title }}{% endblock %}{% if settings.SITE_TITLE %} | {{ settings.SITE_TITLE }}{% endif %}</title>
+<link rel="shortcut icon" href="{% static "img/favicon.ico" %}">
+
+{% ifinstalled mezzanine.blog %}
+<link rel="alternate" type="application/rss+xml" title="RSS" href="{% url "blog_post_feed" "rss" %}">
+<link rel="alternate" type="application/atom+xml" title="Atom" href="{% url "blog_post_feed" "atom" %}">
+{% endifinstalled %}
+
+{% compress css %}
+{% comment %}<link rel="stylesheet" href="{% static "css/bootstrap.css" %}">{% endcomment %}
+<link rel="stylesheet" href="{% static "css/mezzanine.css" %}">
+{% comment %}<link rel="stylesheet" href="{% static "css/bootstrap-theme.css" %}">{% endcomment %}
+{% if LANGUAGE_BIDI %}
+<link rel="stylesheet" href="{% static "css/rtl.css" %}">
+{% endif %}
+{% ifinstalled cartridge.shop %}
+<link rel="stylesheet" href="{% static "css/cartridge.css" %}">
+{% if LANGUAGE_BIDI %}
+<link rel="stylesheet" href="{% static "css/cartridge.rtl.css" %}">
+{% endif %}
+{% endifinstalled %}
+<link rel="stylesheet" href="{% static "css/bootstrap_bootswatch_slate.css" %}">
+<link rel="stylesheet" href="{% static "css/responsiveslides.css" %}">
+<link rel="stylesheet" href="{% static "css/custom.css" %}">
+{% block extra_css %}{% endblock %}
+{% endcompress %}
+
+{% compress js %}
+<script src="{% static "mezzanine/js/"|add:settings.JQUERY_FILENAME %}"></script>
+<script src="{% static "js/bootstrap.js" %}"></script>
+<script src="{% static "js/bootstrap-extras.js" %}"></script>
+<script src="{% static "js/responsiveslides.js" %}"></script>
+<script src="{% static "js/responsiveslides-init.js" %}"></script>
+<script src="{% static "js/custom.js" %}"></script>
+{% block extra_js %}{% endblock %}
+{% endcompress %}
+<!--[if lt IE 9]>
+<script src="{% static "js/html5shiv.js" %}"></script>
+<script src="{% static "js/respond.min.js" %}"></script>
+<![endif]-->
+
+{% block extra_head %}{% endblock %}
+</head>
+
+<body id="{% block body_id %}body{% endblock %}">
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">{% trans "Toggle Navigation" %}</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    {% comment %}{% if settings.SITE_TITLE %}<a class="navbar-brand" href="/">{{ settings.SITE_TITLE }}</a>{% endif %}{% endcomment %}
+    <a class="navbar-brand" href="/"></a>
+    {% if settings.SITE_TAGLINE %}<p class="navbar-text visible-lg">{{ settings.SITE_TAGLINE }}</p>{% endif %}
+</div>
+<div class="navbar-collapse collapse">
+    {% search_form "all" %}
+    {% page_menu "pages/menus/dropdown.html" %}
+</div>
+</div>
+</div>
+
+<div class="container">
+
+{% nevercache %}
+{% if messages %}
+<div class="messages">
+{% for message in messages %}
+<div class="alert alert-dismissable alert-{{ message.tags }}" data-alert="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    {{ message }}
+</div>
+{% endfor %}
+</div>
+{% endif %}
+{% endnevercache %}
+
+<div class="jumbotron">{% block slides %}{% include "includes/slides.html" %}{% endblock %}</div>
+
+{% comment %}<h1>{% block title %}{% editable page.title %}{{ page.title }}{% endeditable %}{% endblock %}</h1>
+
+<ul class="breadcrumb">
+{% spaceless %}
+{% block breadcrumb_menu %}{% page_menu "pages/menus/breadcrumb.html" %}{% endblock %}
+{% endspaceless %}
+</ul>{% endcomment %}
+
+</div>
+
+{% comment %}
+<div class="container">
+<div class="row">
+
+<div class="col-md-2 left">
+    {% block left_panel %}
+    <div class="panel panel-default tree">{% page_menu "pages/menus/tree.html" %}</div>
+    {% endblock %}
+</div>
+
+<div class="col-md-12 middle">
+    {% block main %}
+
+    {% editable page.richtextpage.content %}
+    {{ page.richtextpage.content|richtext_filters|safe }}
+    {% endeditable %}
+
+    {% blog_recent_posts 5 as recent_posts %}
+    {% if recent_posts %}
+        {% for blog_post in recent_posts %}
+        {% block blog_post_list_post_title %}
+        {% editable blog_post.title %}
+        <h2>
+            <a href="{{ blog_post.get_absolute_url }}">{{ blog_post.title }}</a>
+        </h2>
+        {% endeditable %}
+        {% endblock %}
+        {% block blog_post_list_post_metainfo %}
+        {% editable blog_post.publish_date %}
+        <h6 class="post-meta">
+            {% trans "Posted by" %}:
+            {% with blog_post.user as author %}
+            <a href="{% url "blog_post_list_author" author %}">{{ author.get_full_name|default:author.username }}</a>
+            {% endwith %}
+            {% with blog_post.categories.all as categories %}
+            {% if categories %}
+            {% trans "in" %}
+            {% for category in categories %}
+            <a href="{% url "blog_post_list_category" category.slug %}">{{ category }}</a>{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+            {% blocktrans with sometime=blog_post.publish_date|timesince %}{{ sometime }} ago{% endblocktrans %}
+        </h6>
+        {% endeditable %}
+        {% endblock %}
+
+        {% if settings.BLOG_USE_FEATURED_IMAGE and blog_post.featured_image %}
+        {% block blog_post_list_post_featured_image %}
+        <a href="{{ blog_post.get_absolute_url }}">
+            <img class="img-thumbnail pull-left" src="{{ MEDIA_URL }}{% thumbnail blog_post.featured_image 90 90 %}">
+        </a>
+        {% endblock %}
+        {% endif %}
+
+        {% block blog_post_list_post_content %}
+        {% editable blog_post.content %}
+        {{ blog_post.content|truncatewords_html:40|safe }}
+        {% endeditable %}
+        {% endblock %}
+
+        {% block blog_post_list_post_links %}
+        <div class="blog-list-detail">
+            {% keywords_for blog_post as tags %}
+            {% if tags %}
+            <ul class="list-inline tags">
+            {% trans "Tags" %}:
+            {% spaceless %}
+            {% for tag in tags %}
+            <li><a href="{% url "blog_post_list_tag" tag.slug %}" class="tag">{{ tag }}</a></li>
+            {% endfor %}
+            {% endspaceless %}
+            </ul>
+            {% endif %}
+            <p>
+            <a href="{{ blog_post.get_absolute_url }}">{% trans "read more" %}</a>
+            {% if blog_post.allow_comments %}
+            /
+            {% if settings.COMMENTS_DISQUS_SHORTNAME %}
+            <a href="{{ blog_post.get_absolute_url }}#disqus_thread"
+                data-disqus-identifier="{% disqus_id_for blog_post %}">
+                {% trans "Comments" %}
+            </a>
+            {% else %}
+            <a href="{{ blog_post.get_absolute_url }}#comments">
+                {% blocktrans count comments_count=blog_post.comments_count %}{{ comments_count }} comment{% plural %}{{ comments_count }} comments{% endblocktrans %}
+            </a>
+            {% endif %}
+            {% endif %}
+            </p>
+        </div>
+        {% endblock %}
+        {% endfor %}
+    {% endif %}
+
+    {% upcoming_events 5 as upcoming_events %}
+    {% if upcoming_events %}
+        {% for event in upcoming_events %}
+        {% block event_list_event_title %}
+        {% editable event.title %}
+        <h2>
+            <a href="{{ event.get_absolute_url }}">{{ event.title }}</a>
+        </h2>
+        {% endeditable %}
+        {% endblock %}
+        {% block event_list_event_metainfo %}
+        {% editable event.start event.end event.location %}
+        <h6 class="post-meta">
+            {{ event.start }}
+            {% if event.end %}
+            {% trans "-" %} {{ event.end }}
+            {% endif %}
+            {% if event.location %}
+            {% trans "at" %}
+            <a href="{% url "event_list_location" event.location.slug %}">{{ event.location }}</a>
+            {% endif %}
+        </h6>
+        {% endeditable %}
+        {% endblock %}
+
+        {% if settings.EVENT_USE_FEATURED_IMAGE and event.featured_image %}
+        {% block event_list_event_featured_image %}
+        <a href="{{ event.get_absolute_url }}">
+            <img class="img-thumbnail pull-left" src="{{ MEDIA_URL }}{% thumbnail event.featured_image 90 90 %}">
+        </a>
+        {% endblock %}
+        {% endif %}
+
+        {% block event_list_event_content %}
+        {% editable event.content %}
+        {{ event.content|truncatewords_html:40|safe }}
+        {% endeditable %}
+        {% endblock %}
+
+        {% block event_list_event_links %}
+        <div class="event-list-detail {% if forloop.last %}list-end{% endif %}">
+            {% keywords_for event as tags %}
+            {% if tags %}
+            <ul class="list-inline tags">
+            {% trans "Tags" %}:
+            {% spaceless %}
+            {% for tag in tags %}
+            <li><a href="{% url "event_list_tag" tag.slug %}" class="tag">{{ tag }}</a></li>
+            {% endfor %}
+            {% endspaceless %}
+            </ul>
+            {% endif %}
+            <p>
+            <a href="{{ event.get_absolute_url }}">{% trans "read more" %}</a>
+            {% if event.allow_comments %}
+            /
+            {% if settings.COMMENTS_DISQUS_SHORTNAME %}
+            <a href="{{ event.get_absolute_url }}#disqus_thread"
+                data-disqus-identifier="{% disqus_id_for event %}">
+                {% trans "Comments" %}
+            </a>
+            {% else %}
+            <a href="{{ event.get_absolute_url }}#comments">
+                {% blocktrans count comments_count=event.comments_count %}{{ comments_count }} comment{% plural %}{{ comments_count }} comments{% endblocktrans %}
+            </a>
+            {% endif %}
+            {% endif %}
+            </p>
+        </div>
+        {% endblock %}
+        {% endfor %}
+    {% endif %}
+
+    {% endblock %}
+</div>{% endcomment %}
+
+{% comment %}<div class="col-md-3 right">
+    {% nevercache %}
+    {% include "includes/user_panel.html" %}
+    {% endnevercache %}
+    <div class="panel panel-default">
+    <div class="panel-body">
+    {% block right_panel %}
+    {% ifinstalled mezzanine.twitter %}
+    {% include "twitter/tweets.html" %}
+    {% endifinstalled %}
+    {% endblock %}
+    </div>
+    </div>
+    <div class="panel panel-default">
+    <div class="panel-body subscribe">
+        <p>Subscribe to our Newsletter</p>
+        <div id="subscribe-result">
+        </div>
+        <form action="{% url "mailchimp-subscribe" %}" method="POST" id="subscribe-form">{% csrf_token %}
+            <div class="form-group"><input type="email" name="email" placeholder="Email" class="form-control"></div>
+            <div class="form-group"><input type="submit" value="Subscribe" class="btn btn-primary"></div>
+        </form>
+    </div>
+    </div>
+    <div class="panel panel-default">
+    <div class="panel-body connect">
+        <p>Connect</p>
+        <a href="https://www.facebook.com/MusicEcology" target="_blank"><img src="{% static "media/uploads/icons/facebook-icon.png" %}" alt="facebook" /></a>
+        <a href="https://soundcloud.com/music-ecology" target="_blank"><img src="{% static "media/uploads/icons/soundcloud-icon.png" %}" alt="soundcloud" /></a>
+        <a href="http://instagram.com/musicecology" target="_blank"><img src="{% static "media/uploads/icons/instagram-icon.png" %}" alt="instagram" /></a>
+        <a href="https://twitter.com/music_ecology/" target="_blank"><img src="{% static "media/uploads/icons/TwitterIcon.png" %}" alt="twitter" /></a>
+    </div>
+    </div>
+</div>
+
+</div>
+</div>{% endcomment %}
+
+<div class="container">
+{% recent_posts_and_upcoming_events 9 as recent_posts_and_upcoming_events %}
+{% for object in recent_posts_and_upcoming_events %}
+    {% if forloop.first %}
+        <div class="row">
+    {% endif %}
+    <div class="col-md-4"><a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ MEDIA_URL }}{% thumbnail object.content|get_img 320 320 %}" />{{ object.title }}</div></a></div>
+    {% if forloop.last %}
+        </div>
+    {% elif forloop.counter|divisibleby:3 %}
+        </div><div class="row">
+    {% endif %}
+{% endfor %}
+</div>
+
+<footer>
+<div class="container">
+{% page_menu "pages/menus/footer.html" %}
+
+<div class="row">
+<p class="site-info text-center">
+    &copy; 2009-2014 Music Ecology
+</p>
+</div>
+</div>
+</footer>
+
+{% include "includes/footer_scripts.html" %}
+
+</body>
+</html>

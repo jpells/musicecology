@@ -29,6 +29,7 @@
 {% endif %}
 {% endifinstalled %}
 <link rel="stylesheet" href="{% static "css/bootstrap_bootswatch_slate.css" %}">
+<link rel="stylesheet" href="{% static "css/responsiveslides.css" %}">
 <link rel="stylesheet" href="{% static "css/custom.css" %}">
 {% block extra_css %}{% endblock %}
 {% endcompress %}
@@ -37,6 +38,8 @@
 <script src="{% static "mezzanine/js/"|add:settings.JQUERY_FILENAME %}"></script>
 <script src="{% static "js/bootstrap.js" %}"></script>
 <script src="{% static "js/bootstrap-extras.js" %}"></script>
+<script src="{% static "js/responsiveslides.js" %}"></script>
+<script src="{% static "js/responsiveslides-init.js" %}"></script>
 <script src="{% static "js/custom.js" %}"></script>
 {% block extra_js %}{% endblock %}
 {% endcompress %}
@@ -84,6 +87,8 @@
 </div>
 {% endif %}
 {% endnevercache %}
+
+{% block slides %}{% include "includes/slides.html" %}{% endblock %}
 
 <h1>{% block title %}{% endblock %}</h1>
 

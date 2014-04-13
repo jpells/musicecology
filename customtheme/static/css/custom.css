@@ -13,16 +13,36 @@
     background-image: url("/static/img/logo_hover.png");
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: #5bc0de;
+}
+
+.panel-body h3 {
+    color: #5bc0de;
+}
+
 .tree {
     padding-bottom: 0px;
+}
+
+.tree a {
+    color: #5bc0de;
 }
 
 .tree .active > a {
     background-color: #272b2e;
 }
 
+.middle > h2 > a {
+    color: #5bc0de;
+}
+
+.blog-list-detail {
+    border-bottom: 1px dashed #5bc0de;    
+}
+
 .event-list-detail {
-    border-bottom: 1px dashed #CCCCCC;
+    border-bottom: 1px dashed #5bc0de;
     margin-bottom: 30px;
     padding-bottom: 15px;
 }
@@ -37,7 +57,7 @@
 }
 
 hr {
-    border-bottom: 1px dashed #CCCCCC;
+    border-bottom: 1px dashed #5bc0de;
 }
 
 .connect p, .subscribe p {
