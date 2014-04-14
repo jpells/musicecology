@@ -15,8 +15,8 @@ User = get_user_model()
 register = Library()
 
 
-@register.as_tag
-def recent_posts_and_upcoming_events(limit=5, tag=None, username=None, category=None, location=None):
+@register.assignment_tag(takes_context=True)
+def recent_posts_and_upcoming_events(context, limit=5, tag=None, username=None, category=None, location=None):
     """
     Put a dictionary of 3 different wells containing recent posts and upcoming events
     into the template context. A tag title or slug, category title, location title or slug or author's
@@ -31,7 +31,8 @@ def recent_posts_and_upcoming_events(limit=5, tag=None, username=None, category=
         {% recent_posts_and_upcoming_events 5 username=admin as recent_posts_and_upcoming_events %}
 
     """
-    blog_posts = BlogPost.objects.published().select_related("user")
+    request = context["request"]
+    blog_posts = BlogPost.objects.published(for_user=request.user).select_related("user")
     title_or_slug = lambda s: Q(title=s) | Q(slug=s)
     if tag is not None:
         try:
@@ -51,7 +52,7 @@ def recent_posts_and_upcoming_events(limit=5, tag=None, username=None, category=
             blog_posts = blog_posts.filter(user=author)
         except User.DoesNotExist:
             blog_posts = []
-    events = Event.objects.published().select_related("user")
+    events = Event.objects.published(for_user=request.user).select_related("user")
     #Get upcoming events/ongoing events
     events = events.filter(Q(start__gt=datetime.now()) | Q(end__gt=datetime.now()))
     title_or_slug = lambda s: Q(title=s) | Q(slug=s)
