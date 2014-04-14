@@ -321,7 +321,7 @@
     {% if forloop.first %}
         <div class="row">
     {% endif %}
-    <div class="col-md-4"><a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ MEDIA_URL }}{% thumbnail object.content|get_img 320 320 %}" />{{ object.title }}</div></a></div>
+    <div class="col-md-4"><a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a></div>
     {% if forloop.last %}
         </div>
     {% elif forloop.counter|divisibleby:3 %}
