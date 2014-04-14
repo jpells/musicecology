@@ -33,7 +33,7 @@
     background-color: #272b2e;
 }
 
-.middle > h2 > a {
+.middle > h2 > a, .middle > div > h2 > a {
     color: #5bc0de;
 }
 
