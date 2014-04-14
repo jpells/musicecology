@@ -29,6 +29,10 @@
     color: #5bc0de;
 }
 
+.tree a:hover {
+    color: #ffffff;
+}
+
 .tree .active > a {
     color: #ffffff;
 }
