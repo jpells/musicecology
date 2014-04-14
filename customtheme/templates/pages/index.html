@@ -327,23 +327,16 @@
 {% for object in recent_posts_and_upcoming_events.well_2 %}
 <a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a>
 {% endfor %}
+<div class="well">
+    {% include "mailchimp/includes/form.html" %}
+</div>
 </div>
 <div class="col-md-4 right">
 {% for object in recent_posts_and_upcoming_events.well_3 %}
 <a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a>
 {% endfor %}
 </div>
-{% comment %}{% for object in recent_posts_and_upcoming_events %}
-    {% if forloop.first %}
-        <div class="row">
-    {% endif %}
-    <div class="col-md-4"><a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a></div>
-    {% if forloop.last %}
-        </div>
-    {% elif forloop.counter|divisibleby:3 %}
-        </div><div class="row">
-    {% endif %}
-{% endfor %}{% endcomment %}
+
 </div>
 </div>
 

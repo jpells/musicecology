@@ -17,6 +17,11 @@
     color: #5bc0de;
 }
 
+.well p {
+    font-size: 21px;
+    font-weight: 200;
+}
+
 .panel-body h3 {
     color: #5bc0de;
 }
