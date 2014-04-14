@@ -30,6 +30,10 @@
 }
 
 .tree .active > a {
+    color: #ffffff;
+}
+
+.tree .active > a {
     background-color: #272b2e;
 }
 
