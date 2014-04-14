@@ -80,7 +80,7 @@ def recent_posts_and_upcoming_events(limit=5, tag=None, username=None, category=
     for event in events:
         event.sort_datetime = event.start
         recent_posts_and_upcoming_events.append(event)
-    recent_posts_and_upcoming_events.sort(key=lambda x: x.sort_datetime)
+    recent_posts_and_upcoming_events.sort(key=lambda x: x.sort_datetime, reverse=True)
     return recent_posts_and_upcoming_events[:limit]
 
 
