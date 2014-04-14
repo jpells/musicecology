@@ -18,8 +18,8 @@ register = Library()
 @register.as_tag
 def recent_posts_and_upcoming_events(limit=5, tag=None, username=None, category=None, location=None):
     """
-    Put a list of recent posts and upcoming events into the template
-    context. A tag title or slug, category title, location title or slug or author's
+    Put a dictionary of 3 different wells containing recent posts and upcoming events
+    into the template context. A tag title or slug, category title, location title or slug or author's
     username can also be specified to filter the recent posts and upcoming events returned.
 
     Usage::
@@ -81,7 +81,10 @@ def recent_posts_and_upcoming_events(limit=5, tag=None, username=None, category=
         event.sort_datetime = event.start
         recent_posts_and_upcoming_events.append(event)
     recent_posts_and_upcoming_events.sort(key=lambda x: x.sort_datetime, reverse=True)
-    return recent_posts_and_upcoming_events[:limit]
+    well_1 = recent_posts_and_upcoming_events[::3]
+    well_2 = recent_posts_and_upcoming_events[1::3]
+    well_3 = recent_posts_and_upcoming_events[2::3]
+    return {"well_1": well_1, "well_2": well_2, "well_3": well_3}
 
 
 @register.filter(is_safe=True)

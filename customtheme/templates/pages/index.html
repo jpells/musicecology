@@ -316,8 +316,24 @@
 </div>{% endcomment %}
 
 <div class="container">
+<div class="row">
 {% recent_posts_and_upcoming_events 9 as recent_posts_and_upcoming_events %}
-{% for object in recent_posts_and_upcoming_events %}
+<div class="col-md-4 left">
+{% for object in recent_posts_and_upcoming_events.well_1 %}
+<a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a>
+{% endfor %}
+</div>
+<div class="col-md-4 middle">
+{% for object in recent_posts_and_upcoming_events.well_2 %}
+<a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a>
+{% endfor %}
+</div>
+<div class="col-md-4 right">
+{% for object in recent_posts_and_upcoming_events.well_3 %}
+<a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a>
+{% endfor %}
+</div>
+{% comment %}{% for object in recent_posts_and_upcoming_events %}
     {% if forloop.first %}
         <div class="row">
     {% endif %}
@@ -327,7 +343,8 @@
     {% elif forloop.counter|divisibleby:3 %}
         </div><div class="row">
     {% endif %}
-{% endfor %}
+{% endfor %}{% endcomment %}
+</div>
 </div>
 
 <footer>
