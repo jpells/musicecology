@@ -95,4 +95,7 @@ def get_img(content):
     """
     parsed_content = BeautifulSoup(content)
     img = parsed_content.find('img')
-    return img.get("src")
+    if img:
+        return img.get("src")
+    else:
+        return False

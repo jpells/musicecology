@@ -320,12 +320,12 @@
 {% recent_posts_and_upcoming_events 9 as recent_posts_and_upcoming_events %}
 <div class="col-md-4 left">
 {% for object in recent_posts_and_upcoming_events.well_1 %}
-<a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a>
+<a href="{{ object.get_absolute_url }}"><div class="well">{% if object.content|get_img %}<img src="{{ object.content|get_img }}" width="100%" />{% endif %}<p>{{ object.title }}</p></div></a>
 {% endfor %}
 </div>
 <div class="col-md-4 middle">
 {% for object in recent_posts_and_upcoming_events.well_2 %}
-<a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a>
+<a href="{{ object.get_absolute_url }}"><div class="well">{% if object.content|get_img %}<img src="{{ object.content|get_img }}" width="100%" />{% endif %}<p>{{ object.title }}</p></div></a>
 {% endfor %}
 <div class="well">
     {% include "mailchimp/includes/form.html" %}
@@ -333,7 +333,7 @@
 </div>
 <div class="col-md-4 right">
 {% for object in recent_posts_and_upcoming_events.well_3 %}
-<a href="{{ object.get_absolute_url }}"><div class="well"><img src="{{ object.content|get_img }}" width="100%" />{{ object.title }}</div></a>
+<a href="{{ object.get_absolute_url }}"><div class="well">{% if object.content|get_img %}<img src="{{ object.content|get_img }}" width="100%" />{% endif %}<p>{{ object.title }}</p></div></a>
 {% endfor %}
 </div>
 
