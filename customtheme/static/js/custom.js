@@ -8,8 +8,8 @@ $(document).ready(function() {
             success: function(data) {
                 //Render successful alert message.
                 $("#subscribe-result").html('<div class="messages"><div class="alert alert-dismissable alert-info" data-alert="alert"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>'.concat(data.message).concat('</div></div>'))
-            }
-        })
-        return false
-    })
-})
+            },
+        });
+        return false;
+    });
+});
