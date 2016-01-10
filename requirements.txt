@@ -1,5 +1,8 @@
 BeautifulSoup==3.2.1
 Cartridge==0.9.2
+mezzanine==3.0.9
+Pillow==3.1.0
+python-memcached==1.57
 -e git+git://github.com/jpells/mezzanine-agenda.git#egg=mezzanine-agenda
 -e git+https://bitbucket.org/jpells/mezzanine-mailchimp.git#egg=mezzanine-mailchimp
 -e git+git://github.com/jpells/mezzanine-slides.git#egg=mezzanine-slides
