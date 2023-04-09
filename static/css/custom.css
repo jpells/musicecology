@@ -1,0 +1,92 @@
+.navbar-brand {
+    padding: 0px;
+    /*padding-left: 15px;*/
+    width: 148px;
+    height: 49px;
+    margin-left: 0px !important;
+    background-image: url("../img/logo.png");
+    background-size: 148px 49px;
+    background-repeat:no-repeat;
+}
+
+.navbar-brand:hover {
+    background-image: url("../img/logo_hover.png");
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #5bc0de;
+}
+
+.well p {
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.panel-body h3 {
+    color: #5bc0de;
+}
+
+.tree {
+    padding-bottom: 0px;
+}
+
+.tree a {
+    color: #5bc0de;
+}
+
+.tree a:hover {
+    color: #ffffff;
+}
+
+.tree .active > a {
+    color: #ffffff;
+}
+
+.tree .active > a {
+    background-color: #272b2e;
+}
+
+.middle > h2 > a, .middle > div > h2 > a {
+    color: #5bc0de;
+}
+
+.blog-list-detail {
+    border-bottom: 1px dashed #5bc0de;    
+}
+
+.event-list-detail {
+    border-bottom: 1px dashed #5bc0de;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.list-end {
+    border-bottom: none;
+}
+
+.form-actions {
+    background-color: #2e3338;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+hr {
+    border-bottom: 1px dashed #5bc0de;
+}
+
+.connect p, .subscribe p {
+    font-weight: bold;
+}
+
+.connect a img {
+    width: 54px;
+}
+
+footer {
+    background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
+    background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff484e55', endColorstr='#ff313539', GradientType=0);
+    filter: none;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}

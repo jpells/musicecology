@@ -1,7 +1,0 @@
-<p>Subscribe to our Newsletter</p>
-<div id="subscribe-result">
-</div>
-<form action="{% url "mailchimp-subscribe" %}" method="POST" id="subscribe-form">{% csrf_token %}
-    <div class="form-group"><input type="email" name="email" placeholder="Email" class="form-control"></div>
-    <div class="form-group"><input type="submit" value="Subscribe" class="btn btn-primary"></div>
-</form>
