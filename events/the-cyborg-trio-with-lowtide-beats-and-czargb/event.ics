@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:The Cyborg Trio with Lowtide Beats and czARgb
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20110511T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20110511T020000Z
+UID:event-150@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/the-cyborg-trio-with-lowtide-
+ beats-and-czargb/
+END:VEVENT
+END:VCALENDAR

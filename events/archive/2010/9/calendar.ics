@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Mount Kimbie
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100928T040000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100928T040000Z
+UID:event-186@musicecologyboston.com
+URL:http://musicecologyboston.com/events/mount-kimbie/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Heyoka
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100922T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100922T020000Z
+UID:event-187@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/heyoka/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bass Embassy Invasion w/ Steppo + more
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100915T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100915T020000Z
+UID:event-188@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/bass-embassy-invasion-w-steppo-
+ more/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ElectronicAnonymous + Mongo + Figgy
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100908T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100908T020000Z
+UID:event-189@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/electronicanonymous-mongo-figgy/
+END:VEVENT
+END:VCALENDAR

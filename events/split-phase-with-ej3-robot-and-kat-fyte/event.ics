@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Split Phase with EJ3 Robot and Kat Fyte
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20110525T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20110525T020000Z
+UID:event-148@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/split-phase-with-ej3-robot-and-
+ kat-fyte/
+END:VEVENT
+END:VCALENDAR

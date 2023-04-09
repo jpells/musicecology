@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Wheez-ie\, Prism & General Motor with special guest Cache Flowe
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120530T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120530T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120530T020000Z
+UID:event-92@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/wheez-ie-prism-general-motor-with-
+ special-guest-cache-flowe/
+END:VEVENT
+END:VCALENDAR

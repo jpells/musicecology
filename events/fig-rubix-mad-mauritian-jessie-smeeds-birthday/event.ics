@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:FiG\, Rubix\, Mad Mauritian + Jessie Smeed's birthday 
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130213T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130213T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130213T030000Z
+UID:event-47@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/fig-rubix-mad-mauritian-jessie-
+ smeeds-birthday/
+END:VEVENT
+END:VCALENDAR

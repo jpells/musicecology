@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:WALA with DJ Reverence & Kidd Drunkadelic
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130417T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130417T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130417T020000Z
+UID:event-36@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/wala-with-dj-reverence-kidd-
+ drunkadelic/
+END:VEVENT
+END:VCALENDAR

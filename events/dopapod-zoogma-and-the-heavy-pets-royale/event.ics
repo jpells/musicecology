@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Dopapod\, Zoogma\, and The Heavy Pets @ Royale
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130920T000000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130920T040000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130920T000000Z
+UID:event-17@musicecologyboston.com
+LOCATION:Royale Boston\n279 Tremont St.\nBoston\, Massachusetts\n02116
+URL:http://musicecologyboston.com/events/dopapod-zoogma-and-the-heavy-pets-
+ royale/
+END:VEVENT
+END:VCALENDAR

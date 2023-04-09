@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Mr. Bill with Push/Pull & Tube at Wonder Bar
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20121024T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20121024T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20121024T020000Z
+UID:event-67@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/mr-bill-with-pushpull-tube-at-
+ wonder-bar/
+END:VEVENT
+END:VCALENDAR

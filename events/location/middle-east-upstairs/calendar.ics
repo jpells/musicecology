@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Blue Boy Productions with Timbre Coup and Phillosopher - 18+ show!
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130315T000000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130315T050000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130315T000000Z
+UID:event-41@musicecologyboston.com
+LOCATION:Middle East Upstairs\n472-480 Massachusetts Ave\nCambridge\, 
+ MA\n02139
+URL:http://musicecologyboston.com/events/blue-boy-productions-with-timbre-
+ coup-and-phillosopher-18-show/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Blue Boy Productions and Encanti @ Middle East Upstairs
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20121118T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20121118T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20121118T030000Z
+UID:event-62@musicecologyboston.com
+LOCATION:Middle East Upstairs\n472-480 Massachusetts Ave\nCambridge\, 
+ MA\n02139
+URL:http://musicecologyboston.com/events/blue-boy-productions-and-encanti-
+ middle-east-upstairs/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phenology... w/ KiloWatts + Beam&Deem
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20110821T000000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20110821T000000Z
+UID:event-140@musicecologyboston.com
+LOCATION:Middle East Upstairs\n472-480 Massachusetts Ave\nCambridge\, 
+ MA\n02139
+URL:http://musicecologyboston.com/events/phenology-w-kilowatts-beamdeem/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phenology w/ Psylab\, BBP\, Wobblesauce 18+
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20110326T000000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20110326T000000Z
+UID:event-157@musicecologyboston.com
+LOCATION:Middle East Upstairs\n472-480 Massachusetts Ave\nCambridge\, 
+ MA\n02139
+URL:http://musicecologyboston.com/events/phenology-w-psylab-bbp-
+ wobblesauce-18/
+END:VEVENT
+END:VCALENDAR

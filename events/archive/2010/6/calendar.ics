@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:C-Dubs with Eelko/Kuhn/Obey City
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100630T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100630T020000Z
+UID:event-196@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/c-dubs-with-eelkokuhnobey-city/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visual Enlightenment welcomes Speyeral Vision (No Cover)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100627T230000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100627T230000Z
+UID:event-197@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/visual-enlightenment-welcomes-
+ speyeral-vision-no-cover/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DJ Flack (of Beat Research) w/ BBP + Adam Ridge
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100623T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100623T020000Z
+UID:event-198@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/dj-flack-of-beat-research-w-bbp-
+ adam-ridge/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dr Crunkle\, Auto Orbit\, Ian Moss & Jam
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100616T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100616T020000Z
+UID:event-199@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/dr-crunkle-auto-orbit-ian-moss-
+ jam/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cathode Rays with special guests
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100609T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100609T020000Z
+UID:event-200@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/cathode-rays-with-special-guests/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:june
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100602T000000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100602T000000Z
+UID:event-201@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/june/
+END:VEVENT
+END:VCALENDAR

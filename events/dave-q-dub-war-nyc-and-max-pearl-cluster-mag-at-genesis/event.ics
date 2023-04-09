@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Dave Q (Dub War NYC) and Max Pearl (Cluster Mag) at Genesis
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120603T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120603T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120603T020000Z
+UID:event-91@musicecologyboston.com
+LOCATION:Machine Nightclub\n1254 Boylston Street\nBoston\, MA (Fenway)
+URL:http://musicecologyboston.com/events/dave-q-dub-war-nyc-and-max-pearl-
+ cluster-mag-at-genesis/
+END:VEVENT
+END:VCALENDAR

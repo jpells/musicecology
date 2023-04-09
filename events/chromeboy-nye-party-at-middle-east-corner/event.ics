@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:CHROMEBOY NYE Party at @ Middle East Corner
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130101T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130101T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130101T020000Z
+UID:event-54@musicecologyboston.com
+LOCATION:Middle East Corner\n472-480 Massachusetts Ave\nCambridge\, 
+ MA\n02139
+URL:http://musicecologyboston.com/events/chromeboy-nye-party-at-middle-
+ east-corner/
+END:VEVENT
+END:VCALENDAR

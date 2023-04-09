@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Papdosio & Consider the Source at The Sinclair
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130209T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130209T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130209T030000Z
+UID:event-48@musicecologyboston.com
+LOCATION:The Sinclair\n52 Church Street\nCambridge\, MA\n02138
+URL:http://musicecologyboston.com/events/papdosio-consider-the-source-at-
+ the-sinclair/
+END:VEVENT
+END:VCALENDAR

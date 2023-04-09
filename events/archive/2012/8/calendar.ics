@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Om Unit with Krts & kuxxan SUUM
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120829T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120829T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120829T020000Z
+UID:event-76@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/om-unit-with-krts-kuxxan-suum/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phillosopher with Dinoblunt and Mindscan
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120822T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120822T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120822T020000Z
+UID:event-77@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/phillosopher-with-dinoblunt-and-
+ mindscan/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Undrig (Digital Mercs & Heavy Pressure) w/ Nitekrawla & Blisk
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120815T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120815T020000Z
+UID:event-78@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/undrig-digital-mercs-heavy-
+ pressure-w-nitekrawla-blisk/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Skytree with Probiotic & Digital Vagabond
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120808T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120808T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120808T020000Z
+UID:event-79@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/skytree-with-probiotic-digital-
+ vagabond/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Genesis with Wheez-ie and Doctor Jeep
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120805T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120805T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120805T020000Z
+UID:event-80@musicecologyboston.com
+LOCATION:Machine Nightclub\n1254 Boylston Street\nBoston\, MA (Fenway)
+URL:http://musicecologyboston.com/events/genesis-with-wheez-ie-and-doctor-
+ jeep/
+END:VEVENT
+END:VCALENDAR

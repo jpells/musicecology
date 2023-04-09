@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Boston Street Bass Anthems Vol. 5 Release Party with Dev79\, Moldy 
+ & Codiac
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120627T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120627T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120627T020000Z
+UID:event-87@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/boston-street-bass-anthems-vol-5
+ -release-party-with-dev79-moldy-codiac/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sonic Beating Takeover with LuneCell & Anya
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120620T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120620T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120620T020000Z
+UID:event-88@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/sonic-beating-takeover-with-
+ lunecell-anya/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jeff Bujak with Music Ecology Residents
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120613T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120613T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120613T020000Z
+UID:event-89@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/jeff-bujak-with-music-ecology-
+ residents/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DJ Zhao (Berlin) with Tube\, JSB & Josiah Scribes and Bitcrusher
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120606T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120606T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120606T020000Z
+UID:event-90@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/dj-zhao-berlin-with-tube-jsb-
+ josiah-scribes-and-bitcrusher/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dave Q (Dub War NYC) and Max Pearl (Cluster Mag) at Genesis
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120603T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120603T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120603T020000Z
+UID:event-91@musicecologyboston.com
+LOCATION:Machine Nightclub\n1254 Boylston Street\nBoston\, MA (Fenway)
+URL:http://musicecologyboston.com/events/dave-q-dub-war-nyc-and-max-pearl-
+ cluster-mag-at-genesis/
+END:VEVENT
+END:VCALENDAR

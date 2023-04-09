@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Jeff Bujak + EJ3 Robot
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20110202T030000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20110202T030000Z
+UID:event-166@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/jeff-bujak-ej3-robot/
+END:VEVENT
+END:VCALENDAR

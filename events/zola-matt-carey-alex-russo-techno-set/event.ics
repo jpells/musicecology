@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Zola\, Matt Carey\, Alex Russo (techno set)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130220T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130220T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130220T030000Z
+UID:event-45@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/zola-matt-carey-alex-russo-techno-
+ set/
+END:VEVENT
+END:VCALENDAR

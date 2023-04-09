@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Music Ecology hosts Tens Collective Takeover featuring Dan Harder\,
+  VOLTRAN & SteveMarsden
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130306T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130306T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130306T030000Z
+UID:event-43@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/music-ecology-hosts-tens-
+ collective-takeover-featuring-dan-harder-voltran-stevemarsden/
+END:VEVENT
+END:VCALENDAR

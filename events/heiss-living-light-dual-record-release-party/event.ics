@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:HEISS & LIVING LIGHT dual record release party  
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20131113T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20131113T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20131113T030000Z
+UID:event-12@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/heiss-living-light-dual-record-
+ release-party/
+END:VEVENT
+END:VCALENDAR

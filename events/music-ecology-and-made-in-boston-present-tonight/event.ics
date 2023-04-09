@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Music Ecology and Made in Boston Present... (TONIGHT!!!)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130914T000000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130914T050000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130914T000000Z
+UID:event-19@musicecologyboston.com
+LOCATION:South Shore Music Hall\n1515 Hancock St\nQuincy\, MA ‎
+URL:http://musicecologyboston.com/events/music-ecology-and-made-in-boston-
+ present-tonight/
+END:VEVENT
+END:VCALENDAR

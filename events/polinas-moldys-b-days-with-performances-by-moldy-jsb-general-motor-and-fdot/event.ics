@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Polina's & Moldy's B-Days with performances by Moldy\, JSB\, 
+ General Motor and FDOT
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20131228T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20131228T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20131228T030000Z
+UID:event-9@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/polinas-moldys-b-days-with-
+ performances-by-moldy-jsb-general-motor-and-fdot/
+END:VEVENT
+END:VCALENDAR

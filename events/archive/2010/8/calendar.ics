@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:August
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100810T040000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100810T040000Z
+UID:event-190@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/august/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mtn ALBUM RELEASE PARTY w/ Brite Lite Brite & AnimalStyle
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100803T040000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100803T040000Z
+UID:event-191@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/mtn-album-release-party-w-brite-
+ lite-brite-animalstyle/
+END:VEVENT
+END:VCALENDAR

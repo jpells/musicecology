@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Visual Enlightenment 
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100301T000000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100301T000000Z
+UID:event-216@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/visual-enlightenment-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wobblesauce & ELECTRONICAnonymous
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100224T023000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100224T023000Z
+UID:event-217@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/wobblesauce-electronicanonymous/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:hipGnosis
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100217T030000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100217T030000Z
+UID:event-218@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/hipgnosis/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bluetech
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100212T233000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100212T233000Z
+UID:event-219@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/bluetech/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Links
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100210T013000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100210T013000Z
+UID:event-220@musicecologyboston.com
+LOCATION:T.T. the Bear's Place\n10 Brookline Street\nCambridge\, 
+ MA\n02139-4152
+URL:http://musicecologyboston.com/events/links/
+END:VEVENT
+END:VCALENDAR

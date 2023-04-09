@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Tuba Showcase with Moldy\, Bakir\, Prism & AxH (Kevin Kelly's 
+ birthday party)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130327T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130327T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130327T020000Z
+UID:event-39@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/tuba-showcase-with-moldy-bakir-
+ prism-axh-kevin-kellys-birthday-party/
+END:VEVENT
+END:VCALENDAR

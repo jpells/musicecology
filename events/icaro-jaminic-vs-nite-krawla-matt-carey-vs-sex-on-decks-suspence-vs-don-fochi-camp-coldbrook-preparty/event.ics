@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Icaro\, Jaminic vs Nite Krawla\, Matt Carey vs Sex on Decks\, 
+ Suspence vs Don Fochi (Camp Coldbrook Preparty)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130619T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130619T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130619T020000Z
+UID:event-28@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/icaro-jaminic-vs-nite-krawla-matt-
+ carey-vs-sex-on-decks-suspence-vs-don-fochi-camp-coldbrook-preparty/
+END:VEVENT
+END:VCALENDAR

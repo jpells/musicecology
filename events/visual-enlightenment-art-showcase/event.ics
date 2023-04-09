@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Visual Enlightenment Art Showcase
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100725T230000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100725T230000Z
+UID:event-193@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/visual-enlightenment-art-showcase/
+END:VEVENT
+END:VCALENDAR

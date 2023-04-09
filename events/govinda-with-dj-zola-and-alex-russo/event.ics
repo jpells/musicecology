@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Govinda with DJ Zola and Alex Russo
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20111214T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20111214T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20111214T030000Z
+UID:event-121@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/govinda-with-dj-zola-and-alex-
+ russo/
+END:VEVENT
+END:VCALENDAR

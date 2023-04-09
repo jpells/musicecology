@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:June 14th - DJ Stickybuds & ChrisB. w/ support by Alex Russo @ Good
+  Life
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20140615T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20140615T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20140615T020000Z
+UID:event-223@musicecologyboston.com
+LOCATION:28 Kingston Street\nBoston
+URL:http://musicecologyboston.com/events/dj-stickybuds-chrisb-w-support-by-
+ alex-russo/
+END:VEVENT
+END:VCALENDAR

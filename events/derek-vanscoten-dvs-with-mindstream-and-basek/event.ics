@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Derek VanScoten (D.V.S.*) with Mindstream and Basek
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120425T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120425T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120425T020000Z
+UID:event-98@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/derek-vanscoten-dvs-with-
+ mindstream-and-basek/
+END:VEVENT
+END:VCALENDAR

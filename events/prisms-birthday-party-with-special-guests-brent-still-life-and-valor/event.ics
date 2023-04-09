@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Prism's birthday party with special guests Brent Still Life and 
+ Valor
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130612T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130612T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130612T020000Z
+UID:event-29@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/prisms-birthday-party-with-
+ special-guests-brent-still-life-and-valor/
+END:VEVENT
+END:VCALENDAR

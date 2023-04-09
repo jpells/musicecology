@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:ConnetICON\, Louis Deluxe & General Motor at Music Ecology
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130313T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130313T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130313T020000Z
+UID:event-42@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/conneticon-louis-deluxe-general-
+ motor-at-music-ecology/
+END:VEVENT
+END:VCALENDAR

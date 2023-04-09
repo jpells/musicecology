@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Leave It On Stage (L.I.O.S.) and Spliffolian
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120704T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120704T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120704T020000Z
+UID:event-86@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/leave-it-on-stage-lios-and-
+ spliffolian/
+END:VEVENT
+END:VCALENDAR

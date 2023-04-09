@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Bass Embassy Invasion w/ Steppo + more
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100915T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100915T020000Z
+UID:event-188@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/bass-embassy-invasion-w-steppo-
+ more/
+END:VEVENT
+END:VCALENDAR

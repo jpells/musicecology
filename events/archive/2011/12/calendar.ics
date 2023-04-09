@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Figgy\, Dsub\, Professorpious and FDOT 
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20111228T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20111228T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20111228T030000Z
+UID:event-119@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/figgy-dsub-professorpious-and-
+ fdot/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tony Goods (AKA Dash EXP) with Russ Liquid and Blisk
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20111221T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20111221T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20111221T030000Z
+UID:event-120@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/tony-goods-aka-dash-exp-with-russ-
+ liquid-and-blisk/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Govinda with DJ Zola and Alex Russo
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20111214T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20111214T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20111214T030000Z
+UID:event-121@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/govinda-with-dj-zola-and-alex-
+ russo/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leave It On Stage w/ ELECTRONICAnonymous & Mike Swells
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20111207T030000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20111207T030000Z
+UID:event-122@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/leave-it-on-stage-w
+ -electronicanonymous-mike-swells/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Genesis
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20111204T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20111204T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20111204T030000Z
+UID:event-123@musicecologyboston.com
+LOCATION:Machine Nightclub\n1254 Boylston Street\nBoston\, MA (Fenway)
+URL:http://musicecologyboston.com/events/genesis-2/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Chroma Concept EP Release Party with Dice Motion
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120201T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120201T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120201T030000Z
+UID:event-113@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/chroma-concept-ep-release-party-
+ with-dice-motion/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ian Stewart\, Luis Deluxe and The Amazing Baz
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120125T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120125T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120125T030000Z
+UID:event-114@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/ian-stewart-luis-deluxe-and-the-
+ amazing-baz/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NORMAL INSTRUMENTS with Mindstream
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120118T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120118T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120118T030000Z
+UID:event-115@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/normal-instruments-with-
+ mindstream/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Music Ecology with Keith Mattar\, David Justin and Anya
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120111T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120111T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120111T030000Z
+UID:event-116@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/music-ecology-with-keith-mattar-
+ david-justin-and-anya/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Genesis
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120108T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120108T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120108T030000Z
+UID:event-117@musicecologyboston.com
+LOCATION:Machine Nightclub\n1254 Boylston Street\nBoston\, MA (Fenway)
+URL:http://musicecologyboston.com/events/genesis-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phillosopher with Music Ecology Residents
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120104T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120104T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120104T030000Z
+UID:event-118@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/phillosopher-with-music-ecology-
+ residents/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:True Crew Takeover feat/ DJ Parallax\, JSB\, Vadum\, Sex Goliath
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20110629T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20110629T020000Z
+UID:event-143@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/true-crew-takeover-feat-dj-
+ parallax-jsb-vadum-sex-goliath/
+END:VEVENT
+END:VCALENDAR

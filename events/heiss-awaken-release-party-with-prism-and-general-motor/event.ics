@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:HEISS - Awake(n) Release Party with Prism and General Motor
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130130T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130130T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130130T030000Z
+UID:event-50@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/heiss-awaken-release-party-with-
+ prism-and-general-motor/
+END:VEVENT
+END:VCALENDAR

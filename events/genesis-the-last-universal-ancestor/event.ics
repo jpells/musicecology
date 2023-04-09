@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Genesis - The Last Universal Ancestor
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120708T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120708T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120708T020000Z
+UID:event-85@musicecologyboston.com
+LOCATION:Machine Nightclub\n1254 Boylston Street\nBoston\, MA (Fenway)
+URL:http://musicecologyboston.com/events/genesis-the-last-universal-
+ ancestor/
+END:VEVENT
+END:VCALENDAR

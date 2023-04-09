@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Billy Brown\, Moses & DJ Reverence @ Wonder Bar
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130814T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130814T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130814T020000Z
+UID:event-22@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/billy-brown-moses-dj-reverence-
+ wonder-bar/
+END:VEVENT
+END:VCALENDAR

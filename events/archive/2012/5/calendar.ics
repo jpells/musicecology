@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Wheez-ie\, Prism & General Motor with special guest Cache Flowe
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120530T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120530T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120530T020000Z
+UID:event-92@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/wheez-ie-prism-general-motor-with-
+ special-guest-cache-flowe/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jaminic (Live) Album Release Party with FlyLosophy\, Nitekrawla and
+  Professorpious
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120523T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120523T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120523T020000Z
+UID:event-93@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/jaminic-live-album-release-party-
+ with-flylosophy-nitekrawla-and-professorpious/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OPIUO and Blue Boy Productions Album Release Party
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120516T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120516T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120516T020000Z
+UID:event-94@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/opiuo-and-blue-boy-productions-
+ album-release-party/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Heyoka & ELECTRONICAnonymous
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120509T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120509T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120509T020000Z
+UID:event-95@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/heyoka-electronicanonymous/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Genesis with Encanti\, The Statesmen and Professorpious
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120506T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120506T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120506T020000Z
+UID:event-96@musicecologyboston.com
+LOCATION:Machine Nightclub\n1254 Boylston Street\nBoston\, MA (Fenway)
+URL:http://musicecologyboston.com/events/genesis-with-encanti-the-
+ statesmen-and-professorpious/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AxH\, Steppo & A$hley
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120502T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120502T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120502T020000Z
+UID:event-97@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/axh-steppo-ahley/
+END:VEVENT
+END:VCALENDAR

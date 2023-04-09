@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Outlet w/ Creative Common & eelko
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20110823T040000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20110823T040000Z
+UID:event-139@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/outlet-w-creative-common-eelko/
+END:VEVENT
+END:VCALENDAR

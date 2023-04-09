@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:OPIUO and Blue Boy Productions Album Release Party
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120516T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120516T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120516T020000Z
+UID:event-94@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/opiuo-and-blue-boy-productions-
+ album-release-party/
+END:VEVENT
+END:VCALENDAR

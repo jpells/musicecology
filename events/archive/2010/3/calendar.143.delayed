@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Vermin Street Takeover
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100331T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100331T020000Z
+UID:event-211@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/vermin-street-takeover/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visual Enlightenment
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100328T230000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100328T230000Z
+UID:event-212@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/visual-enlightenment-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dÉbruit
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100324T010000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100324T010000Z
+UID:event-213@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/d%C3%A9bruit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Psylab
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100317T003000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100317T003000Z
+UID:event-214@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/psylab/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RESET FROM START
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100303T030000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100303T030000Z
+UID:event-215@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/reset-from-start/
+END:VEVENT
+END:VCALENDAR

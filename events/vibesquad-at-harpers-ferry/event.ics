@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:VibeSquaD at Harper's Ferry!
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20101008T000000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20101008T000000Z
+UID:event-184@musicecologyboston.com
+URL:http://musicecologyboston.com/events/vibesquad-at-harpers-ferry/
+END:VEVENT
+END:VCALENDAR

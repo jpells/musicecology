@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:4 Year Anniversary Party with DISTAL & residents
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130731T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130731T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130731T020000Z
+UID:event-23@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/4-year-anniversary-party-with-
+ distal-residents/
+END:VEVENT
+END:VCALENDAR

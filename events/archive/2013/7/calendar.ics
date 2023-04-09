@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:4 Year Anniversary Party with DISTAL & residents
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130731T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130731T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130731T020000Z
+UID:event-23@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/4-year-anniversary-party-with-
+ distal-residents/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cirrus (formerly Pressplay) w/ De Qualia\, General Motor & Zion 
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130724T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130724T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130724T020000Z
+UID:event-24@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/cirrus-formerly-pressplay-w-de-
+ qualia-general-motor-zion/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Professorpious' & Asia Lakay's Double Birthday Bash @ Music Ecology
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130717T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130717T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130717T020000Z
+UID:event-25@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/professorpious-asia-lakays-double-
+ birthday-bash-music-ecology/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spliffolian's Birthday Party with Moldy\, Scotch1\, DJ Digi & 
+ Josiah Scribes
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20130703T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20130703T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20130703T020000Z
+UID:event-26@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/spliffolians-birthday-party-with-
+ moldy-scotch1-dj-digi-josiah-scribes/
+END:VEVENT
+END:VCALENDAR

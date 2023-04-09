@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:The Chroma Concept with Creative Common (2 sets)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20120926T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20120926T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20120926T020000Z
+UID:event-72@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/the-chroma-concept-with-creative-
+ common-2-sets/
+END:VEVENT
+END:VCALENDAR

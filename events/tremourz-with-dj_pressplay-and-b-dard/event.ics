@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Tremourz with dj_Pressplay and B-DARD
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20101117T030000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20101117T030000Z
+UID:event-178@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/tremourz-with-dj_pressplay-
+ and-b-dard/
+END:VEVENT
+END:VCALENDAR

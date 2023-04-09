@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Blue Boy Productions with FDOT and Dabu - last show of the Tuesday 
+ night residency
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20140129T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20140129T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20140129T030000Z
+UID:event-4@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/blue-boy-productions-with-fdot-
+ and-dabu-last-show-of-the-tuesday-night-residency/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Drop presents The Music Ecology Farewell ft. Professor Pious\, 
+ Alex Russo\, & The Mad Mauritian $$ 2 for 1 b4 11pm! $$
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20140127T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20140127T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20140127T030000Z
+UID:event-5@musicecologyboston.com
+LOCATION:Phoenix Landing\n512 Massachusetts Avenue\nCambridge\, MA\n02139
+URL:http://musicecologyboston.com/events/the-drop-presents-the-music-
+ ecology-farewell-ft-professor-pious-alex-russo-the-mad-
+ mauritian-2-for-1-b4-11pm/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Psymbionic with support by Mindstream
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20140122T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20140122T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20140122T030000Z
+UID:event-6@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/psymbionic-with-support-by-
+ mindstream/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Normal Instruments (only Boston show!) + Beta Ghosts
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20140120T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20140120T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20140120T030000Z
+UID:event-7@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/normal-instruments-only-boston-
+ show-beta-ghosts/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ali Berger\, JSB\, eelko\, & M-Cue
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20140115T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20140115T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20140115T030000Z
+UID:event-8@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/ali-berger-jsb-eelko-m-cue/
+END:VEVENT
+END:VCALENDAR

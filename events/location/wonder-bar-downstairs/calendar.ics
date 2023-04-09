@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Music Ecology's Blog & New Website Launch Party 
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20140419T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20140419T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20140419T020000Z
+UID:event-1@musicecologyboston.com
+LOCATION:Wonder Bar - DOWNSTAIRS\n186 Harvard Avenue\nAllston\, MA
+URL:http://musicecologyboston.com/events/music-ecologys-blog-new-website-
+ launch-party/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Music Ecology & Jive Present: THE CRUNKEASY w/guest Mr. Jennings
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20140202T030000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20140202T070000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20140202T030000Z
+UID:event-3@musicecologyboston.com
+LOCATION:Wonder Bar - DOWNSTAIRS\n186 Harvard Avenue\nAllston\, MA
+URL:http://musicecologyboston.com/events/music-ecology-jive-present-the-
+ crunkeasy-wguest-mr-jennings/
+END:VEVENT
+END:VCALENDAR

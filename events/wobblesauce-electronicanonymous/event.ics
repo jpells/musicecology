@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Wobblesauce & ELECTRONICAnonymous
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100224T023000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100224T023000Z
+UID:event-217@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/wobblesauce-electronicanonymous/
+END:VEVENT
+END:VCALENDAR

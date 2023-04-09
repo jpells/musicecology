@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Visual Enlightenment Art Showcase
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100530T230000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100530T230000Z
+UID:event-202@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/visual-enlightenment-art-
+ showcase-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Transparency (w/ Ed of Psylab)\, BBP\, EJ3 Robot
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100526T013000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100526T013000Z
+UID:event-203@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/the-transparency-w-ed-of-psylab-
+ bbp-ej3-robot/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STATESMEN RECORD RELEASE PARTY
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100519T013000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100519T013000Z
+UID:event-204@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/statesmen-record-release-party/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ali Berger\, Grizzly & Dabu
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100512T013000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100512T013000Z
+UID:event-205@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/ali-berger-grizzly-dabu/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breaker's Paradise
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20100505T020000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20100505T020000Z
+UID:event-206@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/breakers-paradise/
+END:VEVENT
+END:VCALENDAR

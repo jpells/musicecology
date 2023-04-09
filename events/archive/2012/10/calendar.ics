@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mezzanine-agenda//NONSGML V0.1.2//EN
+BEGIN:VEVENT
+SUMMARY:Zebbler Encante Halloween Experience with Mung Bandit and Pressplay
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20121031T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20121031T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20121031T020000Z
+UID:event-66@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/zebbler-encante-halloween-
+ experience-with-mung-bandit-and-pressplay/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mr. Bill with Push/Pull & Tube at Wonder Bar
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20121024T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20121024T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20121024T020000Z
+UID:event-67@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/mr-bill-with-pushpull-tube-at-
+ wonder-bar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bastinado Powered by Reactable with Professorpious and Digital 
+ Vagabond
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20121017T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20121017T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20121017T020000Z
+UID:event-68@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/bastinado-powered-by-reactable-
+ with-professorpious-and-digital-vagabond/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kaminanda + Alex Russo's birthday celebration!
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20121010T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20121010T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20121010T020000Z
+UID:event-69@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/kaminanda-alex-russos-birthday-
+ celebration/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bass Glutton & Nite Krawla at Genesis
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20121007T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20121007T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20121007T020000Z
+UID:event-70@musicecologyboston.com
+LOCATION:Machine Nightclub\n1254 Boylston Street\nBoston\, MA (Fenway)
+URL:http://musicecologyboston.com/events/bass-glutton-nite-krawla-at-
+ genesis/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Moldover with Exaltron and Kedaar 
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20121003T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20121003T060000Z
+DTSTAMP;TZID=UTC;VALUE=DATE-TIME:20121003T020000Z
+UID:event-71@musicecologyboston.com
+LOCATION:Wonder Bar\n186 Harvard Avenue\nAllston\, MA\n02134-2806
+URL:http://musicecologyboston.com/events/moldover-with-exaltron-and-kedaar/
+END:VEVENT
+END:VCALENDAR
